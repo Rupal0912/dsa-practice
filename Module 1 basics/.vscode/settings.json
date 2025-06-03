@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "basics.C": "cpp",
+        "iostream": "cpp",
+        "printingnumber.C": "cpp",
+        "ostream": "cpp"
+    }
+}
