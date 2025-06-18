@@ -16,6 +16,7 @@ void display(node* head){
         cout<<head->val<<" ";
         head=head->next;
     }
+    cout<<endl;
 }
 int main(){
     node* a= new node(10);
