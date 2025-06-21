@@ -2,7 +2,7 @@
 using namespace std;
 void traverse(int arr[],int n,int idx,int max){
     if(idx==n){
-        cout<<max;
+        cout<<max; // base case
         return;
     }
     if(max<arr[idx]) max=arr[idx];
