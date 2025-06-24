@@ -1,0 +1,1 @@
+  // cout<<"is a palindrome"<<endl;
