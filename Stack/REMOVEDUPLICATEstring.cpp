@@ -1,5 +1,6 @@
 #include<iostream>
 #include<stack>
+#include<algorithm>
 using namespace std;
 string removedup(string s){
     stack<char> st;
@@ -13,6 +14,7 @@ string removedup(string s){
         s+=st.top();
          st.pop();
     }
+    reverse(s.begin(), s.end());
     return s;
 }
 int main(){
