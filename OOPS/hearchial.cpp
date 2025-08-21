@@ -18,10 +18,10 @@ class teacher: public person{
 int main(){
     teacher t1;
     t1.name="rahul";
-    t1.roll=23;
+    //t1.roll=23;
     t1.age=33;
     t1.subject="abc";
-    cout<<t1.roll<<endl;
+    //cout<<t1.roll<<endl;
     cout<<t1.age<<endl;
     cout<<t1.name<<endl;
     cout<<t1.subject<<endl;

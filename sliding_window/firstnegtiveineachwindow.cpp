@@ -18,7 +18,7 @@ int main(){
     }
     if(p==-1) ans[0]=1;
     else ans[0]=arr[p];
-    // sliding window
+    // sliding windoww
     int i=1;
     int j=k;
     while(j<n){

@@ -54,10 +54,10 @@ void levelorderqueue(Node*root){
     }
     cout<<endl;
 }
-// void levelorder(Node* root){
-//     int n= level(root);
-// }
-
+void leftboundary(Node* root ){
+    Node* temp= root;
+    
+}
 int main(){
    int arr[]={1,2,3,4,5,INT8_MIN,6,INT8_MIN,INT8_MIN,7,8,9};
    int n=sizeof(arr)/sizeof(arr[0]);
